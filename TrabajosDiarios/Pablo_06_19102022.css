@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.ermenu > a, .ermenuV a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.ermenu > a:hover, .ermenuV a:hover{
+    background-color: rgb(80, 80, 255);
+}
+.ermenu{
+    width: 70%;
+    margin: 20px auto 20px auto
+}
+.ermenuV a{
+    display: block;
+    float: none;
+    width: 30%;
+}
+.ermenuV{
+    width: 50%;
+    float: left;
+}

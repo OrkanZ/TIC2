@@ -1,0 +1,46 @@
+body{
+    background-color: darkgoldenrod;
+    width: 50%;
+    margin: auto;
+    border: solid;
+    border-radius: 20px;
+    padding: 30px;
+    color: blue;
+    border-color: black;
+}
+h1{
+    color: darkblue;
+}
+b{
+    color: red;
+}
+i{
+    color: red;
+}
+u{
+    color: greenyellow;
+}
+hr{
+    color: white;
+}
+pre{
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+}
+img{
+    width: 15%;
+    margin-top: 35px;
+}
+span{
+    color: yellow;
+}
+div pre{
+    float: left;
+}
+div img{
+    float: left;
+}
+.caja1{
+    overflow: auto;
+}
