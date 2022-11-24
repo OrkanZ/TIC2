@@ -1,0 +1,30 @@
+body{
+    background-image: url(./imagenes/fondo-liga.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+.grid img{
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    background-color: black;
+    border: 5px solid white;
+}
+header{
+    text-align: center;
+    background-color: gray;
+    border: 5px solid black;
+}
+img{
+    transition: all ease 1s;
+}
+img:hover{
+    transform: scale(0.8) rotate(15deg);
+}
