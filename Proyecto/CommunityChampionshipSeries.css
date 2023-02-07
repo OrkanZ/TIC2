@@ -1,0 +1,286 @@
+/*
+CommunityChampionshipSeries_01_29092022
+*/
+
+/* 
+Menú de navegación
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(134, 134, 134));
+}
+body{
+    background-image: url(./imagenes/fondo-liga.png)
+}
+nav{
+    font-size: 25px;
+    word-spacing: 20px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+img{
+    width: 150px;
+}
+.app{
+    word-spacing: 1px;
+}
+.bannerccs{
+    width: 1375px;
+    padding: 0%;
+    margin-left: -30px;
+}
+
+.menuarriba a{
+    text-decoration: none;
+    color: rgb(124, 0, 0);
+}
+.menuarriba a:hover{
+    color: red;
+}
+/*Fuentes de letra*/
+@font-face {
+    font-family:"Evogria";
+    src: url(./FUENTES/Evogria/Evogria.otf);
+}
+@font-face {
+    font-family: "MonumentExtended";
+    src: url(./FUENTES/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+}
+/* 
+Banner y pagina de inicio
+*/
+.bannercallejero{
+    background-image: url(./imagenes/banner\ ccs.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pjtext{
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-image: linear-gradient(to right,red,rgb(78, 0, 0));
+    color: rgb(0, 0, 0);
+    font-family: Evogria;
+}
+/*Próxima jornada partidos*/
+.partidosnextjornada{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3em;
+}
+.partido1{
+    margin: 20px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 33%);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-family: Evogria;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+}
+.p1e1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.vs{
+    margin: 20px 0px 20px 0px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 250%;
+}
+.p1e2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.partido2{
+    margin: 20px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 33%);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-family: Evogria;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+}
+.p2e1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.p2e2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.partido3{
+    margin: 20px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 33%);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-family: Evogria;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+}
+.p3e1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.p3e2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.partido4{
+    margin: 20px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 33%);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-family: Evogria;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+}
+.p4e1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.p4e2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10%;
+    margin: 50px 50px 50px 50px;
+}
+.sponsors img{
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    border: 5px solid white;
+    transition: all ease 1s;
+}
+.sponsors img:hover{
+    transform: scale(1.1);
+}
+/* Formulario */
+.formu{
+    text-align: center;
+    color: white;
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: 1.3em;
+}
+
+.contacto{
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+    border: solid 5px black;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+ }
+  
+ .formulario{
+    display: flex;
+    flex-direction: column;
+ }
+  
+ .formulario > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+ }
+
+/* Footer */
+.contenidofooter{
+    margin: auto;
+    align-items: center;
+}
+.tituloinfo{
+    background-color: white;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    padding: 15px;
+    text-align: center;
+    font-family: MonumentExtended;
+}
+.listainfo{
+    width: 50%;
+    margin-left: 23%;
+    padding-top: 50px;
+    text-decoration: none;
+}
+button{
+    background-image: linear-gradient(to right,rgb(197, 13, 13),rgb(78, 0, 0));
+    border: solid black 5px;
+    width: 25%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    font-family: MonumentExtended;
+    transition: all ease 1s;
+ 
+}
+button:hover{
+    transform: scale(0.9);
+}
